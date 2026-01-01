@@ -1,0 +1,138 @@
+/* 通用設定 */
+* {box-sizing: border-box;}
+body, h1, h2, h3, h4 ,p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+body {
+    background-image: url(image/card-section2.png);
+    width: 1280px;
+}
+.wrap-header {
+    width: 100%;
+    background: #81AF44;
+    position: sticky;
+    top: 0px;
+}
+wrap-content {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* header 頁首 */
+header {
+    width: 1209px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+header .logo {
+    background-image: url(image/logo.png);
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-top: 8px;
+    padding-right: 7px;
+}
+header .logo a {
+    display: block;
+    width: 106px;height: 43px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+header .cta-button {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: auto;
+    text-align: center;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: #000000;
+    cursor: pointer;
+}
+header ul {
+    margin: 0;padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header ul a {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+header ul a:hover {
+    color: #000000;
+    background-color: #aaaaaa;
+}
+header .headphones {
+    background-image: url(image/headphones.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-top: 8px;
+    padding-right: 7px;
+}
+header .headphones a {
+    display: block;
+    width: 40px;height: 40px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+/* main 主視覺設定 */
+main {
+    text-align: center;
+    color: #ffffff;
+    width: 1280px; height: 721px;
+    padding-top: 300px;
+    background-image: url(image/background.jpg);
+    background-color: #000000;
+}
+main h1 {
+    font-size: 64px;
+}
+main h3 {
+    font-size: 36px;
+}
+/* card 小卡設定 */
+section {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.card {
+    width: 308px;
+}
+.card-title {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 200%;
+}
+.card-intro {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 600%;
+}
+/* footer 頁尾設定 */
+footer {
+    color: #81AF44;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+footer a {
+    color: #81AF44;
+}
+footer a:hover {
+    color: #ffffff;
+}
